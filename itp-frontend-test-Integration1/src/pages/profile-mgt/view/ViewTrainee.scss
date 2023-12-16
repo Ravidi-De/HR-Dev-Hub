@@ -1,0 +1,23 @@
+.custom-select {
+    position: relative;
+    display: inline-block;
+  
+    .select-icon {
+      font-size: 1.2em;
+      cursor: pointer;
+  
+      &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 5px 0;
+        border-color: #000 transparent transparent transparent;
+        transform: translateY(-50%);
+      }
+    }
+  }
+  

@@ -1,0 +1,5 @@
+export { default as TraineeCreateDiary } from './create-diary'
+export { default as TraineeDiaryDashboard } from './dashboard'
+export { default as EditDiary } from './edit-diary'
+export { default as ViewDiary } from './view-diary'
+export { default as TraineeDiaryInternLogin } from './login'

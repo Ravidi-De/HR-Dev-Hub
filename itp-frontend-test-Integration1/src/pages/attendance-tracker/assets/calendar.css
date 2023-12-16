@@ -1,0 +1,19 @@
+
+.react-calendar__month-view__days__day:not(.react-calendar__month-view__days__day--weekend) {
+    color: #001000;
+  }
+ 
+
+  .react-calendar__navigation__label {
+    color: #001000;
+  }
+  
+  .react-calendar__navigation__arrow {
+    background-color: #001000;
+    color: rgb(255, 0, 0);
+  }
+  .react-calendar {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 0;
+  }

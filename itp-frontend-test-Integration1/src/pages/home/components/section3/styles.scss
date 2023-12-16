@@ -1,0 +1,17 @@
+// Utilities
+@use '/src/styles/variables' as v;
+
+#section3 {
+  background: v.$airforceBlue;
+  background: linear-gradient(145deg, v.$cornellRed 0%, v.$berkeleyBlue 100%);
+  .slider-slide {
+    background-color: rgba(v.$jet, 0.51);
+    border-radius: 20px;
+    transition: 0.5s;
+    border: 2px solid rgba(v.$whiteSmoke, 0.51);
+
+    &:hover {
+      transform: scale(0.9);
+    }
+  }
+}

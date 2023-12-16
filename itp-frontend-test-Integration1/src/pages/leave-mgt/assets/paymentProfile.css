@@ -1,0 +1,12 @@
+/* styles.css */
+/* Red button for isHandled = false */
+.red-button {
+  background-color: red;
+  color: white;
+}
+
+/* Green button for isHandled = true */
+.green-button {
+  background-color: green;
+  color: white;
+}

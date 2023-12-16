@@ -1,0 +1,10 @@
+// Utilities
+@use '/src/styles/variables' as v;
+
+#section1 {
+  position: relative;
+
+  .overlay {
+    background-image: linear-gradient(to right top, #000000c9, #0000003c);
+  }
+}

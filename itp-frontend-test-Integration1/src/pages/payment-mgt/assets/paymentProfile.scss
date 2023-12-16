@@ -1,0 +1,83 @@
+// src/components/CustomSelect/CustomSelect.module.scss
+.custom-select {
+    position: relative;
+    display: inline-block;
+  
+    .select-icon {
+      font-size: 1.2em;
+      cursor: pointer;
+  
+      &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 5px 0;
+        border-color: #000 transparent transparent transparent;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+.custom-select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+
+  /* Updated select-icon styles */
+  .select-icon {
+      font-size: 1.2em;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+  }
+
+  /* Updated select-icon after pseudo-element styles */
+  .select-icon::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 5px 5px 0;
+      border-color: #000 transparent transparent transparent;
+      transform: translateY(-50%);
+      transition: transform 0.2s ease;
+
+      /* Updated styles on hover/focus */
+      .custom-select:hover &,
+      .custom-select:focus & {
+          transform: translateY(-50%) rotate(180deg);
+      }
+  }
+
+  /* Updated styles for the custom select element */
+  select {
+      appearance: none;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+      cursor: pointer;
+      outline: none;
+      font-size: 1em;
+
+      /* Added responsiveness for smaller screens */
+      @media (max-width: 768px) {
+          font-size: 0.9em; /* Adjust font size for smaller screens */
+      }
+  }
+
+  /* Updated styles for select element on hover/focus */
+  select:hover,
+  select:focus {
+      border-color: #007bff;
+  }
+}

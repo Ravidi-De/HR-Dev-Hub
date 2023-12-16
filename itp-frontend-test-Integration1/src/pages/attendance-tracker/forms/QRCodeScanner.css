@@ -1,0 +1,84 @@
+
+.container {
+  max-height: 100vh;
+}
+
+/* Background Carousel Styling */
+.background-carousel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place it behind the content */
+}
+
+/* Header Styling */
+.header {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background for better readability */  /* Remove the background color for the header */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; /* Add a high z-index to ensure it's displayed above other content */
+}
+
+.header-content {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.header-logo img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.header-details {
+  text-align: center;
+}
+
+.header-title {
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.current-time {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+
+/* Footer Styling (No changes needed) */
+/* Footer Styling */
+.footer {
+  background: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background for better readability */  /* Remove the background color for the header */
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+/* Style the links within the footer if needed (No changes needed) */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+

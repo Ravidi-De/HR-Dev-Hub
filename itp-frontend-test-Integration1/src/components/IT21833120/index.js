@@ -1,0 +1,1 @@
+export { default as DashboardLandingCard2 } from '../IT21833120/dashboard-landing-card-supun'

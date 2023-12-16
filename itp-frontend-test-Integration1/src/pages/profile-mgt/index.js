@@ -1,0 +1,8 @@
+export { default as HRManagerDashboard } from './dashboard/HRManager'
+export {default as ViewTrainees} from './view/ViewTrainees'
+export {default as CreateTrainee} from './create/CreateTrainee'
+export {default as SendInquiries} from './inquires/SendInquiries'
+export {default as SignaturePad} from './signature/SignaturePad'
+export {default as AddTrainees} from './add/AddTrainees'
+export {default as ViewEmpProfile} from './profile/ViewEmpProfile'
+export {default as UpdateTrainee} from './update/UpdateTrainee'

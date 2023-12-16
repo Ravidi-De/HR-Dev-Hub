@@ -1,0 +1,20 @@
+[
+  {
+    "_id": 1,
+    "sessionName": "Introduction to Power Apps",
+    "sessionDesc": "This session is an introductory session to learn the basics of PowerApps.",
+    "sessionMeet": "https://meet.google.com/spa-hyry-csy"
+  },
+  {
+    "_id": 2,
+    "sessionName": "Introduction to Power Apps 2",
+    "sessionDesc": "This session is an introductory session to learn the basics of PowerApps.",
+    "sessionMeet": "https://meet.google.com/spa-hyry-csy"
+  },
+  {
+    "_id": 3,
+    "sessionName": "Introduction to Power Apps 3",
+    "sessionDesc": "This session is an introductory session to learn the basics of PowerApps.",
+    "sessionMeet": "https://meet.google.com/spa-hyry-csy"
+  }
+]

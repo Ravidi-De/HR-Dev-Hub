@@ -1,0 +1,25 @@
+@use '/src/styles/variables' as v;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Markazi+Text&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  color: v.$night !important;
+}
+
+.markazi-text {
+  font-family: Markazi Text, serif;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #666666 !important;
+  color: #fff !important;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
+  box-shadow: none !important;
+}

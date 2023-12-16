@@ -1,0 +1,12 @@
+export { default as IELogin } from './logins/IE'
+export { default as PEDashboard } from './dashboards/PE'
+export { default as PELogin } from './logins/PE'
+export { default as QELogin } from './logins/QE'
+export { default as QEDashboard } from './dashboards/QE'
+export { default as IEDashboard } from './dashboards/IE'
+export { default as TmReqForm } from './Forms/IE/TMReq'
+export { default as OnJobTraining } from './Forms/IE/OnJobTraining'
+
+export { default as QECreateExam } from './QE/FinalExam'
+export { default as QEEditExam } from './QE/EditExam'
+export { default as QEEvaluate } from './QE/ViewEvaluations/evaluateExam'

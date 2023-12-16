@@ -1,0 +1,52 @@
+#section2 {
+  .about {
+    background: url('https://source.unsplash.com/Jt9syHEhrPE/1920x1080');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    object-fit: cover;
+
+    .overlay {
+      background-color: #00000048;
+    }
+
+    &:hover > .overlay {
+      background-color: #00000099;
+      cursor: pointer;
+
+      p {
+        border-bottom: 3px solid #fff;
+      }
+    }
+  }
+
+  .destinations {
+    background: url('https://source.unsplash.com/Sj0iMtq_Z4w/1920x1080');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    object-fit: cover;
+
+    .overlay {
+      background-color: #00000069;
+    }
+
+    &:hover > .overlay {
+      background-color: #00000099;
+      cursor: pointer;
+
+      p {
+        border-bottom: 3px solid #fff;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about .overlay,
+  .destinations .overlay {
+    display: flex;
+  }
+}
